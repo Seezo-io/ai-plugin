@@ -1,0 +1,20 @@
+{
+  "name": "seezo",
+  "interface": {
+    "displayName": "Seezo"
+  },
+  "plugins": [
+    {
+      "name": "seezo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/seezo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    }
+  ]
+}

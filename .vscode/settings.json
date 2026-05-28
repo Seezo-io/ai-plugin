@@ -1,0 +1,11 @@
+{
+  "chat.agentSkillsLocations": {
+    "plugins/seezo/skills": true,
+    ".github/skills": true,
+    ".claude/skills": true,
+    ".agents/skills": true,
+    "~/.copilot/skills": true,
+    "~/.claude/skills": true,
+    "~/.agents/skills": true
+  }
+}

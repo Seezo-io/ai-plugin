@@ -1,0 +1,24 @@
+{
+  "name": "seezo",
+  "displayName": "Seezo",
+  "version": "0.6.0",
+  "description": "Official Seezo plugin for AI clients. Connects shared public skills to the Seezo MCP.",
+  "author": {
+    "name": "Seezo",
+    "email": "security@seezo.io",
+    "url": "https://seezo.io"
+  },
+  "homepage": "https://seezo.io",
+  "repository": "https://github.com/Seezo-io/ai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "security-review",
+    "security-workflows",
+    "ai-plugin",
+    "seezo",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "seezo",
+  "description": "Seezo MCP workflows for Claude Code.",
+  "owner": {
+    "name": "Seezo",
+    "email": "security@seezo.io"
+  },
+  "plugins": [
+    {
+      "name": "seezo",
+      "description": "Official Seezo plugin for AI clients. Connects shared public skills to the Seezo MCP.",
+      "author": {
+        "name": "Seezo",
+        "email": "security@seezo.io"
+      },
+      "category": "security",
+      "source": "./plugins/seezo",
+      "homepage": "https://seezo.io"
+    }
+  ]
+}

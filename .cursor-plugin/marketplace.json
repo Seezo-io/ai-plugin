@@ -1,0 +1,17 @@
+{
+  "name": "seezo",
+  "owner": {
+    "name": "Seezo",
+    "email": "security@seezo.io"
+  },
+  "metadata": {
+    "description": "Seezo MCP workflows for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "seezo",
+      "source": ".",
+      "description": "Official Seezo plugin for AI clients. Connects shared public skills to the Seezo MCP."
+    }
+  ]
+}

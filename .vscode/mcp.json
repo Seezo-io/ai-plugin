@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "seezo": {
+      "type": "http",
+      "url": "https://app.seezo.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+node_modules/
+.claude/settings.local.json
+.seezo/
+.claude/
+notes/
