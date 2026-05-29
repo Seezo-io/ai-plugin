@@ -1,6 +1,6 @@
 {
   "name": "seezo",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Official Seezo plugin for AI clients. Connects shared public skills to the Seezo MCP.",
   "mcpServers": {
     "seezo": {

@@ -20,7 +20,7 @@ description: |
   "scan with seezo", "run a Seezo assessment", "check this spec with Seezo".
 metadata:
   vendor: seezo
-  version: "0.6.0"
+  version: "0.7.0"
 ---
 
 # start-assessment
@@ -144,12 +144,12 @@ Call `create_assessment` on the `seezo` MCP server with:
   concatenates them server-side — do not pre-concat or add header
   separators yourself.
 
-The response is the redirect URL of the new assessment. Extract the
-`assessment_id` from the URL (`/projects/{project_id}/assessments/{assessment_id}`)
-and bind `${ASSESSMENT_ID}`. **Never generate `assessment_id` locally.**
-If the response is unparseable or the URL doesn't carry an
-`assessment_id`, emit `skill_failed` with `error_class=validation`, stop,
-and report the raw response.
+The response is the redirect URL, assessment_id and success flag of 
+the new assessment. Extract the `assessment_id` from the response 
+field `assessment_id` and bind `${ASSESSMENT_ID}`. **Never generate 
+`assessment_id` locally.** If the response is unparseable or the response 
+doesn't carry an `assessment_id`, emit `skill_failed` with 
+`error_class=validation`, stop, and report the raw response.
 
 If `create_assessment` raises (network, auth, server), propagate the
 error verbatim so the user can retry, and emit `skill_failed` with the
