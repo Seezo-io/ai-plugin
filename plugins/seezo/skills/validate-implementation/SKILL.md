@@ -22,7 +22,7 @@ description: |
   the Seezo assessment", "check the code against Seezo".
 metadata:
   vendor: seezo
-  version: "0.6.0"
+  version: "0.7.0"
 ---
 
 # validate-implementation
